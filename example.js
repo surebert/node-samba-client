@@ -30,6 +30,12 @@ async function run() {
   await client.getFile(testFile, testFile);
   console.log(`got test file from samba share at ${client.address}`);
 
+  let files = await client.listDirectory();
+  console.log(files);
+
+  let files = await client.listDirectory('test-directory');
+  console.log(files);
+
   let exists = await client.fileExists(testFile);
   if (exists) {
     console.log(`test file exists on samba share at ${client.address}`);

@@ -26,4 +26,7 @@ await client.sendFile('somePath/file', 'destinationFolder/name');
 
 // get a file
 await client.getFile('someRemotePath/file', 'destinationFolder/name');
+
+// get file listing with details and supporting mask/subdirectories
+await client.listDirectory('someRemotePath', '*.txt');
 ```

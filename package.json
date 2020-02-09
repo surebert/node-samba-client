@@ -1,11 +1,11 @@
 {
   "name": "samba-client",
-  "version": "3.0.0",
-  "description": "wrapper for smbclient",
+  "version": "4.0.0",
+  "description": "Fork of eflexsystems/node-samba-client with improved directory listing feature",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eflexsystems/node-samba-client.git"
+    "url": "https://github.com/surebert/node-samba-client.git"
   },
   "keywords": [
     "samba",
@@ -13,10 +13,10 @@
     "cifs",
     "smbclient"
   ],
-  "author": "eFlex Systems",
+  "author": "Paul Viscos",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eflexsystems/node-samba-client/issues"
+    "url": "https://github.com/surebert/node-samba-client/issues"
   },
-  "homepage": "https://github.com/eflexsystems/node-samba-client"
+  "homepage": "https://github.com/surebert/node-samba-client"
 }
